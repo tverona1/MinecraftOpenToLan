@@ -2,7 +2,7 @@
 
 Minecraft does not allow you to specify a port number for "Open to LAN" single player games. Instead, it generates a random port number. This makes it a pain to invite others players because you need to forward a different port each time.
 
-This Windows system tray app automatically listens to the "Open to LAN" port and maps it to the default Minecraft port (25565). You now only need to forward the default Minecraft port, regardless of the acutal random port number that Minecraft uses.
+This Windows system tray app automatically listens to the "Open to LAN" port and maps it to the default Minecraft port (25565). You now only need to forward the default Minecraft port, regardless of the actia; random port number that Minecraft uses.
 
 ## How does this work? ##
 The app listens to the Minecraft open-to-lan multicast address. When it detects that a game has been opened-to-lan, it then uses netsh to set up a local port proxy via:
